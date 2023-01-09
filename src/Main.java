@@ -1,4 +1,4 @@
-package example;
+
 
 import views.LoginSignupFrame;
 import views.WindowPanel;
