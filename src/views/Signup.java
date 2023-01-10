@@ -1,4 +1,5 @@
 package views;
+import models.Profile;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -31,7 +32,7 @@ public class Signup extends JPanel implements ActionListener {
     // constructor, to initialize the components
     // with default values.
     public Signup() {
-//        setBounds(300, 90, 600, 600);
+
         setMinimumSize(new Dimension(600, 450));
         setLayout(new GridBagLayout());
 
@@ -124,7 +125,7 @@ public class Signup extends JPanel implements ActionListener {
         constraints.gridy = 6;
         constraints.insets = new Insets(5, 5, 5, 5);
         passwordField.setEchoChar('*');
-//        passwordField.putClientProperty("JPasswordField.cutCopyAllowed",true);
+
         add(passwordField, constraints);
 
         term = new JCheckBox("Accept Terms And Conditions.");
@@ -151,7 +152,7 @@ public class Signup extends JPanel implements ActionListener {
                     || passwordField.getPassword().length == 0) {
                 Utilities.infoBox("All fields are mandatory", "Missing Fields");
             } else {
-                //TODO add checks if username exists, mail validity,date validity etc
+               
                 try {
                     Profile newUser = new Profile(usernameField.getText(),
                             nameField.getText(),
