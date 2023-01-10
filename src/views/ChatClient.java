@@ -75,15 +75,5 @@ public class ChatClient extends JFrame {
         }
     }
 
-    public static void main(String[] args) throws InterruptedException {
-        ChatClient client1 = new ChatClient("1", "2");
-        Thread.sleep(1000);
-        ChatClient client2 = new ChatClient("2", "1");
-        Thread.sleep(1000);
-
-        ChatClient client23 = new ChatClient("2d", "1s");
-        Thread.sleep(1000);
-
-
-    }
+   
 }
