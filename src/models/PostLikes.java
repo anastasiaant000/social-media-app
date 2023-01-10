@@ -53,8 +53,6 @@ public class PostLikes implements Serializable {
         return 1;
     }
 
-    public static void main(String[] args) {
-        System.out.println(PostLikes.getPostLikes("5435345"));
-    }
+   
 
 }
