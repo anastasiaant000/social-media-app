@@ -118,14 +118,6 @@ public class Posts implements Serializable {
     }
 
 
-    public static void main(String[] args) {
-        //2 users (one poster one for likes)
-        var user = Profile.getUser("topas404");
-        var user2 = Profile.getUser("asd");
-        var user3 = Profile.getUser("1");
-        var user4 = Profile.getUser("2");
-
-
-    }
+  
 }
 
