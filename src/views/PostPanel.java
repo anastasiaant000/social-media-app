@@ -46,16 +46,5 @@ public class PostPanel extends JPanel {
         }
     }
 
-    public static void main(String[] args) {
-        var user = Profile.getUser("topas404");
-
-        PostPanel postPanel = new PostPanel(user);
-        JFrame frame = new JFrame("Posts frame");
-        frame.add(postPanel);
-        frame.pack();
-        frame.setVisible(true);
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-//        java socket server with a map of users
-    }
 
 }
