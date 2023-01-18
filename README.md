@@ -9,7 +9,7 @@
 # Οδηγίες εκτέλεσης 
 
 ####  java -jar social-media-app.jar με path ../social-media-app 
-    #### ή
+ #### ή
 #### Εκτέλεση του φακέλου social-media-app κάνοντάς το import ως maven project στο IntelliJ 
 
 # Παρουσίαση της δομής των περιεχομένων του αποθετηρίου
