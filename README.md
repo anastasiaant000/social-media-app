@@ -4,10 +4,13 @@
 ![Screenshot (75)](https://user-images.githubusercontent.com/76211868/212957440-1ecb51d6-79e5-44ad-97f8-5de7bf090c2d.png)
 
 # Οδηγίες μεταγλώτισσης του προγράμματος
-#### Maven
+#### Maven compile
 
 # Οδηγίες εκτέλεσης 
-###  java -jar social-media-app.jar
+
+####  java -jar social-media-app.jar με path ../social-media-app 
+    #### ή
+#### Εκτέλεση του φακέλου social-media-app κάνοντάς το import ως maven project στο IntelliJ 
 
 # Παρουσίαση της δομής των περιεχομένων του αποθετηρίου
 Ο κώδικας χωρίζεται σε 3 φακέλους: models(φάκελος κλάσεων σύνδεσης βάσης), views , chat. Έξω απο αυτους υπαρχει η Main.java απo την οποια
